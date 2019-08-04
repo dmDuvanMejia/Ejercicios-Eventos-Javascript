@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Evento focus</h1>
+
+    <p>
+        Descubre lo que pasa cuando llenas o no llenas datos
+        en los campos.
+    </p>
+
+     <form action="">
+        <label for="nombre" >Nombre </label>
+        <input id="nombre" type="text" onblur="eventFocus('nombre')">
+
+        <label for="apellido" >Apellido</label>
+        <input id="apellido" type="text" onblur="eventFocus('apellido')">
+
+        <label for="edad" >Edad</label>
+        <input id="edad" type="text" onblur="eventFocus('edad')">
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

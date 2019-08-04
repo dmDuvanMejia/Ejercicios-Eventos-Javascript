@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Evento reset</h1>
+    <p>Pone los valores de los campos vacios</p>
+
+    <form action="" onreset="eventReset()">
+        <label for="usuario" >Nombre usuario</label>
+        <input id="usuario" type="text" >
+
+        <label for="contrasenia" >Contraseña</label>
+        <input id="contrasenia" type="text">
+
+        <input type="reset" value="Reestablecer">
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Evento mousemove</h1>
+
+    <p>Pasa por el cuadrado y descubre su color</p>
+
+    <div id="cuadrado"  onmousemove="eventMouseMove(event)"
+         style="width: 500px; height: 350px; border: 3px solid #000;">
+        <p>Mira las coordenadas y su color</p>
+    </div>
+
+    <h3>Tus coordenadas</h3>
+    <p id="coordenadas"></p>
+    <script src="js/app.js"></script>
+</body>
+</html>

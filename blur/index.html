@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Evento blur</h1>
+    <p>Pone los valores de los input en mayúscula</p>
+
+    <form action="">
+        <label for="usuario" >Nombre usuario</label>
+        <input id="usuario" type="text" onblur="eventBlur('usuario')">
+
+        <label for="contrasenia" >Contraseña</label>
+        <input id="contrasenia" type="text" onblur="eventBlur('contrasenia')">
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
